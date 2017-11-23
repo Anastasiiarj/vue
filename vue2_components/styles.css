@@ -1,0 +1,21 @@
+.button{
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #b8860b;
+    font-family: bold;
+    font-weight: bold;
+}
+.picture{
+    width: 130px;
+}
+.dd_menu_item{
+    padding: 5px 5px;
+    border-bottom: solid 1px #b8860b;
+}
+.dd_menu_item:hover{
+    color: #b8860b;
+    border-bottom: solid 1px #eee;
+    cursor:pointer;
+}
