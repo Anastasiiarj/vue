@@ -1,0 +1,47 @@
+body{
+    background-color: #8F8787;
+}
+h2{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #1989AC;
+}
+.forma, .anketa{
+    margin: 20px 270px;
+    padding: 10px;
+    width: 700px;
+}
+.forma{
+    background-color: #F9F9F9;
+    height: 350px;
+}
+.anketa{
+    background-color: #EBCBAE;
+    height: 250px;
+}
+select{
+    padding:4px 30px;
+    font-size:14px;
+    background-color:#eee;
+}
+option{
+    padding: 5px;
+}
+span{
+    margin: 0 20px;
+}
+input.name{
+    width: 200px;
+    height: 25px;
+    font-size:14px;
+    background-color:#eee;
+    float: right;
+}
+button{
+    float: right;
+    border-radius: 8px;
+    color: #eee;
+    background-color: #1989AC;
+    padding: 10px 30px;
+    font-size: 15px;
+}
