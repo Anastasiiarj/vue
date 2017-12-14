@@ -1,6 +1,7 @@
 const Themain = ('the-main', {
     template: `<div>
      <div class="navigation">
+     <img src="picture/earth-pictures.png" alt="">
         <nav class="nav_menu">
             <router-link class="nav_hlday" to="ski">Ski holidays</router-link>
             <router-link class="nav_hlday" to="family">Family holidays</router-link>

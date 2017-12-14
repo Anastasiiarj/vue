@@ -9,6 +9,13 @@ body *{
 h1{
     font-size: 1.8rem;
 }
+p{
+    line-height: 1.8;
+}
+.navigation img{
+    float: left;
+    margin: 0.8rem 1.5rem;
+}
 .nav_hlday{
     display: inline-block;
     margin: 4rem;
@@ -54,7 +61,7 @@ img {
     margin-top: 7rem;
 }
 .ski{
-    height: 655px;
+    height: 880px;
 }
 .family{
     height: 440px;
@@ -62,6 +69,7 @@ img {
 .country{
     color: #254B62;
     text-decoration: none;
+    line-height: 1.5;
 }
 .country:hover {
     color: #bbb;
@@ -104,7 +112,8 @@ address{
     border-top: solid 1px #254B62;
     color: #254B62;
     position: sticky;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    line-height: 2;
 }
 @keyframes pctr-active{
     0% { margin-left: -100px; opacity: 0; }
@@ -131,9 +140,9 @@ address{
 }
 .p_visible{
     display: inline-block;
-    width: 45%;
+    width: 50%;
     position: relative;
-    top: -8rem;
+    top: -4rem;
     left: 1rem;
 
 }
